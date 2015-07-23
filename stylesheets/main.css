@@ -5646,6 +5646,17 @@ span.cyan {
 p.final-text.titulo {
   font-size: 75px; }
 
+p.final-text.titulo.c-white {
+  display: inline; }
+
 /*Footer*/
+footer.sentence-gray {
+  background-color: rgba(58, 56, 56, 0.9);
+  width: 100%; }
+
+.interior {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4%; }
 
 /*# sourceMappingURL=main.css.map */
