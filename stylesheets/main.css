@@ -5562,6 +5562,33 @@ button.close {
 a.navbar-brand {
   margin-top: 20px; }
 
+/*Menu desplegable*/
+nav a#pull {
+  display: none; }
+
+@media all and (max-width: 600px) {
+  nav {
+    height: auto; }
+
+  nav ul {
+    width: 100%;
+    display: block;
+    height: auto; }
+
+  nav li {
+    width: 50%;
+    float: left;
+    position: relative; }
+
+  nav li a {
+    border-bottom: 1px solid cyan;
+    border-right: 1px solid cyan; }
+
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px; } }
+/**/
 div#bs-example-navbar-collapse-1 {
   margin-top: 20px; }
 
