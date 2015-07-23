@@ -5580,5 +5580,7 @@ nav.navbar.navbar-default {
     width: 100% !important;
     font-size: 35px;
     padding: 20px 0 20 0; } }
+.row {
+  margin-right: 0 !important; }
 
 /*# sourceMappingURL=main.css.map */
