@@ -101,14 +101,19 @@ hr {
 /*Portafolio*/
 
 .portafolio{
-  background-color: gray;
+  background-color: black;
   width: 100%;
-  padding: 10%;
+}
+.content-img1 {
+    width: 93%;
+    margin: 0 auto;
 }
 
 aside {
-    background-color: gray;
+    background-color: black;
     width: 100%;
+    padding: 0 5% 0 5%;
+    
 }
 
 img.work {
