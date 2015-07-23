@@ -5533,6 +5533,12 @@ button.close {
 .c-cyan {
   color: cyan; }
 
+.titulo {
+  font-family: Bebas; }
+
+.cuerpo {
+  font-family: Futura; }
+
 /*Global*/
 * {
   margin: 0;
@@ -5599,7 +5605,28 @@ img.logo {
   min-height: 21px;
   padding: 3px 0; }
 
+/*Nosotros*/
+.nosotros {
+  width: 100%;
+  padding: 10%; }
+
+hr {
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1.5px solid gray;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 60px; }
+
 /*Portafolio*/
+.portafolio {
+  background-color: gray;
+  width: 100%; }
+
+aside {
+  background-color: gray;
+  width: 100%; }
+
 img.work {
   width: 100%; }
 
