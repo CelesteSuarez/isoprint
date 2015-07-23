@@ -5534,7 +5534,7 @@ button.close {
   color: cyan; }
 
 .c-black {
-  background-color: black; }
+  color: black; }
 
 .titulo {
   font-family: Bebas; }
@@ -5656,7 +5656,7 @@ p.final-text.titulo.c-white {
 
 /*Footer*/
 footer.sentence-gray {
-  background-color: rgba(58, 56, 56, 0.9);
+  background-color: #3c3c3c;
   width: 100%; }
 
 .interior {
