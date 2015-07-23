@@ -5533,11 +5533,17 @@ button.close {
 .c-cyan {
   color: cyan; }
 
+.c-black {
+  background-color: black; }
+
 .titulo {
   font-family: Bebas; }
 
 .cuerpo {
   font-family: Futura; }
+
+.fondo-black {
+  background-color: black; }
 
 /*Global*/
 * {
@@ -5560,7 +5566,7 @@ div#bs-example-navbar-collapse-1 {
   margin-top: 20px; }
 
 nav.navbar.navbar-default {
-  background-color: black;
+  background-color: #312e2e;
   margin: 0 !important;
   border: 0; }
 
@@ -5580,8 +5586,7 @@ img.logo {
   padding: 0;
   margin: 0; }
 
-.gray-sentence {
-  background-color: gray;
+.fondo-black {
   width: 100% !important;
   font-size: 80px;
   padding: 150px 0 150 0; }
