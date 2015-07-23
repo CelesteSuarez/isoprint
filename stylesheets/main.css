@@ -5574,4 +5574,11 @@ nav.navbar.navbar-default {
   font-size: 80px;
   padding: 150px 0 150 0; }
 
+@media screen and (max-width: 480px) {
+  .gray-sentence {
+    background-color: gray;
+    width: 100% !important;
+    font-size: 35px;
+    padding: 20px 0 20 0; } }
+
 /*# sourceMappingURL=main.css.map */
