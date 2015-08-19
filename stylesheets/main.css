@@ -5715,6 +5715,11 @@ p.final-text.titulo {
 p.final-text.titulo.c-white {
   display: inline; }
 
+@media screen and (max-width: 480px) {
+  p.final-text.titulo.c-white {
+    display: inline;
+    font-size: 32px;
+    width: 100%; } }
 /*Footer*/
 footer.sentence-gray {
   background-color: #3c3c3c;
