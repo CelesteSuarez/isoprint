@@ -135,12 +135,13 @@ ul.nav.navbar-nav.navbar-right {
 	margin:0;
 }
 
-
 .fondo-black {
     width: 100% !important;
-    padding: 150px 0 150 0;
+    padding-top: 8%;
+    padding-bottom: 4%;
     height: 100%;
 }
+
 .centro {
     text-align: left !important;
     width: 75% !important;
@@ -234,6 +235,13 @@ span.cyan{
 }
 
 /*Frase final*/
+
+.frase {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 65px;
+}
 
 p.final-text.titulo {
     font-size: 75px;
