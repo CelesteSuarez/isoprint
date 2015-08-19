@@ -5606,6 +5606,11 @@ img.logo {
   position: relative !important;
   left: 165px !important; }
 
+@media screen and (max-width: 480px) {
+  img.logo {
+    width: 40% !important;
+    position: relative !important;
+    left: 18px !important; } }
 ul.nav.navbar-nav.navbar-right {
   right: 190px;
   position: relative;
@@ -5768,12 +5773,6 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav > li > a {
   color: white !important;
   font-family: Futura; }
-
-img.logo {
-  bottom: 50px;
-  width: 80%;
-  position: relative;
-  left: 15px; }
 
 .gray-sentence {
   background-color: gray;

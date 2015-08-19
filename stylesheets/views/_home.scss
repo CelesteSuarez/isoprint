@@ -78,6 +78,14 @@ img.logo {
     left: 165px !important;
 }
 
+@media screen and (max-width: 480px){
+img.logo {
+    width: 40% !important;
+    position: relative !important;
+    left: 18px !important;
+  }
+}
+
 ul.nav.navbar-nav.navbar-right {
     right: 190px;
     position: relative;
