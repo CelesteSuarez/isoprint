@@ -57,6 +57,29 @@ nav a {
   }
 }
 
+/*Menu hover efect*/
+
+a.we:hover {
+  color: #E9008C !important;
+}
+
+a.ser:hover{
+  color: #34ABED !important;
+}
+
+a.por:hover{
+  color: #FAF72F !important;
+}
+
+a.contac:hover{
+  color: white!important;
+}
+
+li {
+  font-size: 22px;
+  font-family: BebasNeueBook;
+}
+
 /**/
 
 div#bs-example-navbar-collapse-1 {
@@ -223,8 +246,7 @@ p.final-text.titulo.c-white {
 .frase-final {
     width: 100%;
     height: 80%;
-}
-
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -247,7 +269,14 @@ footer.sentence-gray {
     padding: 4%;
 }
 
-
+@media screen and (max-width: 480px){
+.interior {
+    width: 100%;
+    padding-top: 14%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
 
 
 

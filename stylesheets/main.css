@@ -5590,6 +5590,23 @@ nav a#pull {
     text-align: left;
     width: 100%;
     text-indent: 25px; } }
+/*Menu hover efect*/
+a.we:hover {
+  color: #E9008C !important; }
+
+a.ser:hover {
+  color: #34ABED !important; }
+
+a.por:hover {
+  color: #FAF72F !important; }
+
+a.contac:hover {
+  color: white !important; }
+
+li {
+  font-size: 22px;
+  font-family: BebasNeueBook; }
+
 /**/
 div#bs-example-navbar-collapse-1 {
   margin-top: 20px; }
@@ -5734,6 +5751,12 @@ footer.sentence-gray {
   margin: 0 auto;
   padding: 4%; }
 
+@media screen and (max-width: 480px) {
+  .interior {
+    width: 100%;
+    padding-top: 14%;
+    text-align: left;
+    font-size: 18px; } }
 /*Global*/
 * {
   margin: 0;
