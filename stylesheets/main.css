@@ -5565,6 +5565,9 @@ a.navbar-brand {
 nav a#pull {
   display: none; }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: black !important; }
+
 @media screen and (max-width: 480px) {
   nav {
     height: auto; }
