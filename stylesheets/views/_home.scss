@@ -68,7 +68,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav>li>a {
     color: white !important;
-    font-family: Futura;
+    font-family: BebasNeue Light;
 }
 
 img.logo {
@@ -100,10 +100,11 @@ ul.nav.navbar-nav.navbar-right {
     text-align: left !important;
     width: 75% !important;
     margin: 0 auto !important;
-    line-height: 100px !important;
-    font-size: 94px !important;
-    letter-spacing: 2px !important;
+    line-height: 112px !important;
+    font-size: 155px !important;
+    letter-spacing: 1px !important;
 }
+
 @media screen and (max-width:480px){
   .centro {
     background-color: gray;
@@ -188,7 +189,7 @@ p.final-text.titulo {
     font-size: 75px;
 }
 
-p.final-text.titulo.c-white {
+p.final-text.titulo.c-white { 
     display: inline;
 }
 /*Footer*/
