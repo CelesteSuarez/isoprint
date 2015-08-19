@@ -5598,7 +5598,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav > li > a {
   color: white !important;
-  font-family: BebasNeue Light; }
+  font-family: BebasNeue Light !important; }
 
 img.logo {
   bottom: 30px !important;
@@ -5632,10 +5632,14 @@ ul.nav.navbar-nav.navbar-right {
 
 @media screen and (max-width: 480px) {
   .centro {
-    background-color: gray;
-    width: 100% !important;
-    font-size: 35px;
-    padding: 20px 0 20 0; } }
+    text-align: center !important;
+    width: 89% !important;
+    margin: 0 auto !important;
+    line-height: 64px !important;
+    font-size: 63px !important;
+    letter-spacing: 1px !important;
+    position: relative;
+    bottom: 50px; } }
 .row:before, .row:after {
   content: " ";
   display: table; }
