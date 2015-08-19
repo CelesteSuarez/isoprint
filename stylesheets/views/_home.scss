@@ -219,6 +219,13 @@ p.final-text.titulo {
 p.final-text.titulo.c-white { 
     display: inline;
 }
+@media screen and (max-width: 480px){
+.frase-final {
+    width: 100%;
+    height: 80%;
+}
+
+}
 
 @media screen and (max-width: 480px){
   p.final-text.titulo.c-white {
