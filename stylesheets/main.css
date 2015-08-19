@@ -5608,14 +5608,20 @@ img.logo {
 
 @media screen and (max-width: 480px) {
   img.logo {
-    width: 40% !important;
+    width: 21% !important;
     position: relative !important;
-    left: 18px !important; } }
+    left: 18px !important;
+    top: -90px; } }
 ul.nav.navbar-nav.navbar-right {
   right: 190px;
   position: relative;
   top: 20px; }
 
+@media screen and (max-width: 480px) {
+  ul.nav.navbar-nav.navbar-right {
+    right: 0;
+    position: relative;
+    top: -13px; } }
 .gray-sentence {
   background-color: gray;
   width: 100%;
