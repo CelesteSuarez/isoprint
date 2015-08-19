@@ -5747,7 +5747,8 @@ p.final-text.titulo.c-white {
   p.final-text.titulo.c-white {
     display: inline;
     font-size: 32px;
-    width: 100%; } }
+    width: 100%;
+    line-height: 44px; } }
 /*Footer*/
 footer.sentence-gray {
   background-color: #3c3c3c;

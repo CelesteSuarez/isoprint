@@ -258,12 +258,15 @@ p.final-text.titulo.c-white {
 }
 
 @media screen and (max-width: 480px){
-  p.final-text.titulo.c-white {
+p.final-text.titulo.c-white {
     display: inline;
     font-size: 32px;
     width: 100%;
-  }
+    line-height: 44px;
 }
+
+}
+
 /*Footer*/
 
 footer.sentence-gray {
