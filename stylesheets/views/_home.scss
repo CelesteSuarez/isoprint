@@ -72,12 +72,17 @@ nav.navbar.navbar-default {
 }
 
 img.logo {
-    bottom: 50px;
-    width: 80%;
-    position: relative;
-    left: 15px;
+    bottom: 30px !important;
+    width: 65% !important;
+    position: relative !important;
+    left: 165px !important;
 }
 
+ul.nav.navbar-nav.navbar-right {
+    right: 190px;
+    position: relative;
+    top: 20px;
+}
 .gray-sentence{
 	background-color: gray;
 	width: 100%;
@@ -88,21 +93,19 @@ img.logo {
 
 .fondo-black {
     width: 100% !important;
-    font-size: 80px;
     padding: 150px 0 150 0;
     height: 100%;
 }
 .centro {
     text-align: left !important;
-    width: 66% !important;
+    width: 75% !important;
     margin: 0 auto !important;
     line-height: 100px !important;
-    font-size: 136px !important;
-    letter-spacing: 4px !important;
+    font-size: 94px !important;
+    letter-spacing: 2px !important;
 }
-
-@media screen and (max-width:$screen-phone){
-  .gray-sentence {
+@media screen and (max-width:480px){
+  .centro {
     background-color: gray;
     width: 100% !important;
     font-size: 35px;
