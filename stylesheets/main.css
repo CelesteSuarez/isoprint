@@ -5863,6 +5863,16 @@ footer.sentence-gray {
   padding-top: 4%;
   padding-bottom: 4%; }
 
+@media screen and (max-width: 480px) {
+  .centro {
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto !important;
+    line-height: 64px !important;
+    font-size: 63px !important;
+    letter-spacing: 1px !important;
+    position: relative;
+    top: 30px; } }
 nav.navbar.navbar-default.black {
   background-color: black !important; }
 
