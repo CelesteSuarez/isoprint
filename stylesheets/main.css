@@ -6169,4 +6169,11 @@ aside.muestra {
   background-color: #FAF72F;
   width: 100%; }
 
+.frase.final {
+  width: 50%;
+  background-color: white;
+  text-align: left;
+  padding-top: 4%;
+  padding-bottom: 4%; }
+
 /*# sourceMappingURL=main.css.map */
