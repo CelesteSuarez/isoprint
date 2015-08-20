@@ -130,9 +130,29 @@ ul.nav.navbar-nav.navbar-right {
 .fondo-celeste {
     width: 100% !important;
     padding-top: 8%;
-    padding-bottom: 4%;
+    padding-bottom: 15%;
     height: 100%;
     background-color: #34ABED;
+}
+
+@media screen and (max-width: 480px){
+.fondo-celeste {
+    width: 100% !important;
+    padding-top: 20%;
+    height: 100%;
+    background-color: #34ABED;
+  }
+}
+
+p.final-text.titulo{
+  font-size:75px;
+}
+
+@media screen and (max-width: 480px){
+  p.final-text.titulo {
+    font-size: 35px;
+    line-height: 35px;
+  }
 }
 
 .centro {
