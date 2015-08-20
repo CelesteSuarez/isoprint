@@ -5987,13 +5987,10 @@ h1.c-cyan.text-center.titulo {
   padding-top: 10%;
   padding-bottom: 5%; }
 
-hr {
-  margin-bottom: 20px;
+hr.style-two {
   border: 0;
-  border-top: 1.5px solid gray;
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 60px; }
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
 
 .botones {
   margin: 0 auto;
@@ -6028,5 +6025,11 @@ button.btn.btn-default.posprensa {
   background-color: #34ABED;
   padding-top: 6%;
   padding-bottom: 6%; }
+
+/*Imagen*/
+.pure-img {
+  width: 100%;
+  height: auto;
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
