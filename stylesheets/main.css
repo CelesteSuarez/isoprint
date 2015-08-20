@@ -5841,6 +5841,28 @@ footer.sentence-gray {
     padding-top: 14%;
     text-align: left;
     font-size: 18px; } }
+.frase-nosotros {
+  width: 50%;
+  background-color: #E9008C;
+  text-align: left;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  margin: 0 auto;
+  line-height: 64px; }
+
+.fondo-violeta {
+  width: 100% !important;
+  padding-top: 8%;
+  padding-bottom: 4%;
+  height: 100%;
+  background-color: #E9008C; }
+
+.violeta {
+  width: 100%;
+  background-color: #E9008C;
+  padding-top: 4%;
+  padding-bottom: 4%; }
+
 nav.navbar.navbar-default.black {
   background-color: black !important; }
 
