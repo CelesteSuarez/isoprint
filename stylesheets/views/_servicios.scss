@@ -261,3 +261,13 @@ button.btn.btn-default.posprensa {
     height: auto;
     display: block;
 }
+
+
+@media screen and (max-width: 480px){
+.interior {
+    width: 100%;
+    padding-top: 14%;
+    text-align: center;
+    font-size: 18px;
+  }
+}
