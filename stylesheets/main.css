@@ -5984,7 +5984,8 @@ h1.c-cyan.text-center.titulo {
 
 .nosotros {
   width: 100%;
-  padding: 10%; }
+  padding-top: 10%;
+  padding-bottom: 5%; }
 
 hr {
   margin-bottom: 20px;
@@ -5993,6 +5994,26 @@ hr {
   width: 60%;
   margin: 0 auto;
   padding-top: 60px; }
+
+.botones {
+  margin: 0 auto;
+  width: 26%;
+  padding-bottom: 2%; }
+
+button.btn.btn-default.preprensa {
+  margin: 5px;
+  background-color: skyblue;
+  color: white; }
+
+button.btn.btn-default.prensa {
+  margin: 5px;
+  background-color: #49A9D0;
+  color: white; }
+
+button.btn.btn-default.posprensa {
+  margin: 5px;
+  background-color: #399BD6;
+  color: white; }
 
 /*frase final*/
 .frase {
