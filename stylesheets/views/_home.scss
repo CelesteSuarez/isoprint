@@ -57,7 +57,25 @@ nav a {
   }
 }
 
+div#bs-example-navbar-collapse-1 {
+    margin-top: 20px;
+}
+
+nav.navbar.navbar-default {
+    background-color: rgb(49, 46, 46);
+    margin: 0 !important;
+    border: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: Bebas Neue Light !important;
+    font-size: 25px;
+}
+
 /*Menu hover efect*/
+.navbar-default .navbar-nav>li>a {
+    color: #868282;
+}
 
 a.we:hover {
   color: #E9008C !important;
@@ -75,11 +93,6 @@ a.contac:hover{
   color: white!important;
 }
 
-li {
-  font-size: 22px;
-  font-family: BebasNeue Light;
-}
-
 .flecha {
   letter-spacing: 2px;
   padding-left: 9px;
@@ -89,20 +102,6 @@ li {
 
 /**/
 
-div#bs-example-navbar-collapse-1 {
-    margin-top: 20px;
-}
-
-nav.navbar.navbar-default {
-    background-color: rgb(49, 46, 46);
-    margin: 0 !important;
-    border: 0;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: white !important;
-    font-family: Bebas Neue Light !important;
-}
 
 img.logo {
     bottom: 30px !important;
@@ -172,7 +171,6 @@ ul.nav.navbar-nav.navbar-right {
   }
 }
 
-
 .row:before, .row:after{
   content: " ";
   display: table;
@@ -183,10 +181,9 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .row{
-  margin-left: -15px !important;
-  margin-right: -15px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   min-height: 21px;
-
   padding: 3px 0; 
 }
 
@@ -221,7 +218,6 @@ aside {
     background-color: black;
     width: 100%;
     padding: 0 5% 0 5%;
-    
 }
 
 img.work {

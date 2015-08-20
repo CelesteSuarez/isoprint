@@ -5590,7 +5590,22 @@ nav a#pull {
     text-align: left;
     width: 100%;
     text-indent: 25px; } }
+div#bs-example-navbar-collapse-1 {
+  margin-top: 20px; }
+
+nav.navbar.navbar-default {
+  background-color: #312e2e;
+  margin: 0 !important;
+  border: 0; }
+
+.navbar-default .navbar-nav > li > a {
+  font-family: Bebas Neue Light !important;
+  font-size: 25px; }
+
 /*Menu hover efect*/
+.navbar-default .navbar-nav > li > a {
+  color: #868282; }
+
 a.we:hover {
   color: #E9008C !important; }
 
@@ -5603,10 +5618,6 @@ a.por:hover {
 a.contac:hover {
   color: white !important; }
 
-li {
-  font-size: 22px;
-  font-family: BebasNeue Light; }
-
 .flecha {
   letter-spacing: 2px;
   padding-left: 9px;
@@ -5614,18 +5625,6 @@ li {
   display: inline !important; }
 
 /**/
-div#bs-example-navbar-collapse-1 {
-  margin-top: 20px; }
-
-nav.navbar.navbar-default {
-  background-color: #312e2e;
-  margin: 0 !important;
-  border: 0; }
-
-.navbar-default .navbar-nav > li > a {
-  color: white !important;
-  font-family: Bebas Neue Light !important; }
-
 img.logo {
   bottom: 30px !important;
   width: 65% !important;
@@ -5687,8 +5686,8 @@ ul.nav.navbar-nav.navbar-right {
   clear: both; }
 
 .row {
-  margin-left: -15px !important;
-  margin-right: -15px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   min-height: 21px;
   padding: 3px 0; }
 
@@ -5783,7 +5782,7 @@ footer.sentence-gray {
 h1.c-violet.text-center.titulo {
   margin: 0; }
 
-h2.c-black.text-center.titulo {
+h2.text-center.titulo {
   margin: 0; }
 
 .c-violet {
