@@ -5987,10 +5987,13 @@ h1.c-cyan.text-center.titulo {
   padding-top: 10%;
   padding-bottom: 5%; }
 
-hr.style-two {
+hr {
+  margin-bottom: 20px;
   border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+  border-top: 1.5px solid gray;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 60px; }
 
 .botones {
   margin: 0 auto;
