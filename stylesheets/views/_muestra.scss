@@ -152,12 +152,23 @@ aside.muestra {
     width: 100% !important;
 }
 
+.trabajo {
+    width: 45%;
+    margin: 0 auto;
+}
+
+@media screen and(max-width: 480px){
+.trabajo {
+    width: 100%;
+    margin: 0 auto;
+}
+}
 .pure-img {
     max-width: 100%;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
-
 .fondo-yellow{
 
 	background-color: #FAF72F;

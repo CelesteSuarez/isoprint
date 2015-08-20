@@ -6035,4 +6035,138 @@ button.btn.btn-default.posprensa {
   height: auto;
   display: block; }
 
+/*Global*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+nav.navbar.navbar-default.black {
+  background-color: black !important; }
+
+a.navbar-brand {
+  margin-top: 20px; }
+
+/*Menu desplegable*/
+nav a#pull {
+  display: none; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: black !important; }
+
+@media screen and (max-width: 480px) {
+  nav {
+    height: auto; }
+
+  nav ul {
+    width: 100%;
+    display: block;
+    height: auto; }
+
+  nav li {
+    width: 50%;
+    float: left;
+    position: relative; }
+
+  nav li a {
+    border-bottom: 1px solid cyan;
+    border-right: 1px solid cyan; }
+
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px; } }
+div#bs-example-navbar-collapse-1 {
+  margin-top: 20px; }
+
+nav.navbar.navbar-default {
+  background-color: #312e2e;
+  margin: 0 !important;
+  border: 0; }
+
+.navbar-default .navbar-nav > li > a {
+  font-family: Bebas Neue Light !important;
+  font-size: 25px; }
+
+/*Menu hover efect*/
+.navbar-default .navbar-nav > li > a {
+  color: #868282; }
+
+a.we:hover {
+  color: #E9008C !important; }
+
+a.ser:hover {
+  color: #34ABED !important; }
+
+a.por:hover {
+  color: #FAF72F !important; }
+
+a.contac:hover {
+  color: white !important; }
+
+.flecha {
+  letter-spacing: 2px;
+  padding-left: 9px;
+  color: #A5A2A2;
+  display: inline !important; }
+
+/**/
+img.logo {
+  bottom: 30px !important;
+  width: 65% !important;
+  position: relative !important;
+  left: 165px !important; }
+
+@media screen and (max-width: 480px) {
+  img.logo {
+    width: 21% !important;
+    position: relative !important;
+    left: 18px !important;
+    top: -90px; } }
+ul.nav.navbar-nav.navbar-right {
+  right: 190px;
+  position: relative;
+  top: 20px; }
+
+@media screen and (max-width: 480px) {
+  ul.nav.navbar-nav.navbar-right {
+    right: 0;
+    position: relative;
+    top: -13px; } }
+.gray-sentence {
+  background-color: gray;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.imagenes {
+  width: 40% !important;
+  margin: 0 auto !important; }
+
+aside.muestra {
+  background-color: #FAF72F !important;
+  width: 100% !important; }
+
+.trabajo {
+  width: 45%;
+  margin: 0 auto; }
+
+@media screen and (max-width: 480px) {
+  .trabajo {
+    width: 100%;
+    margin: 0 auto; } }
+.pure-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+
+.fondo-yellow {
+  background-color: #FAF72F;
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
