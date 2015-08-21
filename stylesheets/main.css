@@ -5873,9 +5873,16 @@ footer.sentence-gray {
   width: 100% !important;
   padding-top: 8%;
   padding-bottom: 4%;
-  height: 100%;
+  height: 790px;
   background-color: #E9008C; }
 
+@media screen and (max-width: 480px) {
+  .fondo-violeta {
+    width: 100% !important;
+    padding-top: 10%;
+    padding-bottom: 12%;
+    background-color: #E9008C;
+    min-height: 350px; } }
 .violeta {
   width: 100%;
   background-color: #E9008C;
