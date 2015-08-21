@@ -6134,7 +6134,8 @@ img.big2 {
 
 aside.por {
   width: 100%;
-  background-color: #FAF72F; }
+  background-color: #FAF72F;
+  padding: 10px; }
 
 img.last {
   width: 100%; }
