@@ -6119,7 +6119,7 @@ h1.c-yellow.text-center.titulo {
   width: 100% !important;
   padding-top: 8%;
   padding-bottom: 4%;
-  height: 100%;
+  height: 790px !important;
   background-color: #FAF72F; }
 
 .content-img1 {
@@ -6142,7 +6142,9 @@ img.last {
 
 .portafolio {
   width: 100%;
-  background-color: #FAF72F; }
+  background-color: #FAF72F;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .frase-portafolio {
   width: 60%;
