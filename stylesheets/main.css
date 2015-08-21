@@ -6112,6 +6112,9 @@ button.btn.btn-default.posprensa {
     padding-top: 14%;
     text-align: center;
     font-size: 18px; } }
+h1.c-yellow.text-center.titulo {
+  margin: 0; }
+
 .fondo {
   width: 100% !important;
   padding-top: 8%;
@@ -6126,6 +6129,22 @@ aside.por {
 .portafolio {
   width: 100%;
   background-color: #FAF72F; }
+
+.frase-portafolio {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 65px;
+  background-color: white; }
+
+.sin-fondo {
+  width: 100% !important;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: white; }
+
+.c-yellow {
+  color: #FAF72F; }
 
 /*Global*/
 * {
