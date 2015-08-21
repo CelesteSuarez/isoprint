@@ -6112,6 +6112,21 @@ button.btn.btn-default.posprensa {
     padding-top: 14%;
     text-align: center;
     font-size: 18px; } }
+.fondo {
+  width: 100% !important;
+  padding-top: 8%;
+  padding-bottom: 4%;
+  height: 100%;
+  background-color: #FAF72F; }
+
+aside.por {
+  width: 100%;
+  background-color: #FAF72F; }
+
+.portafolio {
+  width: 100%;
+  background-color: #FAF72F; }
+
 /*Global*/
 * {
   margin: 0;
@@ -6280,8 +6295,7 @@ aside.contacto {
   max-width: 50%; }
 
 .titulo {
-  font-family: Bebas Neue;
-  background-color: white; }
+  font-family: Bebas Neue; }
 
 form {
   margin: 0 auto;
