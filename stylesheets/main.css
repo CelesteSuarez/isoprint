@@ -5662,8 +5662,9 @@ ul.nav.navbar-nav.navbar-right {
 @media screen and (max-width: 480px) {
   .fondo-black {
     width: 100% !important;
-    padding-top: 10%;
-    padding-bottom: 15%; } }
+    padding-top: 20%;
+    letter-spacing: 1px;
+    text-align: left; } }
 .centro {
   text-align: left !important;
   width: 75% !important;
