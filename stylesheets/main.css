@@ -6122,9 +6122,22 @@ h1.c-yellow.text-center.titulo {
   height: 100%;
   background-color: #FAF72F; }
 
+.content-img1 {
+  width: 90%;
+  margin: 0 auto; }
+
+img.big {
+  width: 77.5% !important; }
+
+img.big2 {
+  width: 90%; }
+
 aside.por {
   width: 100%;
   background-color: #FAF72F; }
+
+img.last {
+  width: 100%; }
 
 .portafolio {
   width: 100%;
