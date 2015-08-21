@@ -148,6 +148,22 @@ ul.nav.navbar-nav.navbar-right {
     height: 100%;
 }
 
+
+.fondo-frase{
+    width: 100% !important;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    background-color: black;
+}
+
+.frase-index{
+   width: 60% !important;
+   margin: 0 auto;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    background-color: black;
+}
+
 @media screen and (max-width: 480px){
 .fondo-black {
     width: 100% !important;
@@ -199,7 +215,7 @@ ul.nav.navbar-nav.navbar-right {
 /*Nosotros*/
 .nosotros {
     width: 100%;
-    padding: 10%;
+    padding: 10% !important;
 }
 
 hr {
