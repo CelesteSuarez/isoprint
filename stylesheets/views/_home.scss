@@ -148,7 +148,15 @@ ul.nav.navbar-nav.navbar-right {
     height: 100%;
 }
 
-.centro {
+@media screen and (max-width: 480px){
+  .fondo-black {
+    width: 100% !important;
+    padding-top: 10%;
+    padding-bottom: 15%;
+  }
+}
+
+.centro{
     text-align: left !important;
     width: 75% !important;
     margin: 0 auto !important;
