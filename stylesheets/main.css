@@ -6253,19 +6253,44 @@ aside.muestra {
   padding-top: 4%;
   padding-bottom: 4%; }
 
+aside.contacto {
+  width: 100%;
+  background-color: white; }
+
 .mapa {
   width: 100%;
   margin: 0 auto; }
 
+.mapa {
+  max-width: 50%; }
+
+.titulo {
+  font-family: Bebas Neue;
+  background-color: white; }
+
 form {
-  /* Just to center the form on the page */
   margin: 0 auto;
   width: 400px;
-  /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em; }
 
+@media screen and (max-width: 480px) {
+  form {
+    margin: 0 auto;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em; } }
+@media screen and (max-width: 480px) {
+  input#name {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  input#mail {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  textarea#msg {
+    width: 100%; } }
 form div + div {
   margin-top: 1em; }
 
