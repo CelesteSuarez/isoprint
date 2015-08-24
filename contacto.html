@@ -7,11 +7,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		 <input type="text" value="by default this element is filled with this text" />
+		 <link rel="stylesheet" type="text/css" href="nosotros.html">
+		 <link rel="stylesheet" type="text/css" href="servicios.html">
+		 <link rel="stylesheet" type="text/css" href="prensa.html">
+		 <link rel="stylesheet" type="text/css" href="preprensa.html">
+		 <link rel="stylesheet" type="text/css" href="posprensa.html">
+		 <link rel="stylesheet" type="text/css" href="muestra.html">
+		 <link rel="stylesheet" type="text/css" href="portafolio.html">
+		 <link rel="stylesheet" type="text/css" href="contacto.html">
 	</head>
 	<body>
 		<div class="container-fluid"><!--Inicio:Parent container-->
-			<nav class="navbar navbar-default black">
+		<nav class="navbar navbar-default black">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -72,7 +79,11 @@
     </div>
     <div>
         <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_email" />
+        <input type="text" id="mail" name="user_email" />
+    </div>
+       <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="character" id="telefono" name="user_telefono" />
     </div>
     <div>
         <label for="msg">Mensaje:</label>
@@ -103,11 +114,12 @@
 	<div class="row">
 		<div class="col-md-6">
 			<div class="interior">
-				<p class="c-white"><strong>Taller.</strong>Calle Las Obsiadas 1389-1392. Urbanizacion Balconcillo- La Victoria<p>
-				<p class="c-white"><strong>Oficina.</strong>Calle Federico Villareal 581-San Isidro</p>
-				<p class="c-white"><strong>Telefonos.</strong>440 1404/ 441 3693/9986 84 08/*2368319/ 99844 1268/ #5966263/ 9984 1696 /#596264</p>
-				<p class="c-white"><strong>Web.</strong>www.isoprintsac.com.pe</p>
-				<p class="c-white"><strong>Email.</strong>ventas@isoprint.com.pe</p>
+				<p class="c-white"><strong>Taller.</strong>Calle Las Obsiadas 1389-1392. Urbanizacion Balconcillo- La Victoria</br>
+				<strong>Oficina.</strong>Calle Federico Villareal 581-San Isidro</br>
+				<strong>Telefonos.</strong>440 1404/ 441 3693/9986 84 08/*2368319/ 99844 1268/ #5966263/ 9984 1696 /#596264</br>
+				<strong>Web.</strong>www.isoprintsac.com.pe</br>
+				<strong>Email.</strong>ventas@isoprint.com.pe</br>
+			</p>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -152,7 +164,6 @@ google.maps.event.addDomListener(window, "resize", function() {
    google.maps.event.trigger(map, "resize");
    map.setCenter(center); 
 });
-
 </script>
 	</body>	
 </html>	

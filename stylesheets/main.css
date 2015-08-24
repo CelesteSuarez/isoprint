@@ -5788,7 +5788,7 @@ footer.sentence-gray {
   width: 100%; }
 
 .interior {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 4%; }
 
@@ -6353,6 +6353,9 @@ form {
   input#mail {
     width: 100%; } }
 @media screen and (max-width: 480px) {
+  input#telefono {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
   textarea#msg {
     width: 100%; } }
 form div + div {
@@ -6385,18 +6388,5 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em; }
-
-.mapa2 {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden; }
-
-.mapa2 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important; }
 
 /*# sourceMappingURL=main.css.map */
